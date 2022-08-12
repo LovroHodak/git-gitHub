@@ -1,0 +1,34 @@
+cd ..   				(one step back)
+cd [name of child folder] 
+cd ~    				(back to default path)
+cd ~[folder you are looking for]    	(absolute path)
+cd /    				(back to root)
+cd \mnt\c				(c drive)
+
+ls      				(list)
+clear   
+
+mkdir [folder name]
+rm -rf [folder name]
+touch [file name]
+rm [file name]
+
+git init
+git status
+git add [name of file]
+git add .
+git rm -f [name of file]		(force remove)
+git commit --help
+git commit -m ['message']
+git log
+git log --oneline
+git checkout [commit id]		(takes you back in time to that commit)
+git checkout master			(to latest commit)
+git revert [commit id]			(reverts file content to what it was before that commit)
+git reset --hard [commit id]		(resets all commits and makes this one master)
+git rm --cached [name of file]		(dont track this file)
+git commit -a -m ['message']		(commit untracked files)
+git rm -r --cached 			(if you create .gitignore later, than you have to remove files you want to ignore from cached)
+
+
+
